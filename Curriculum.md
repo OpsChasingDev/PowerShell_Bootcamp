@@ -35,7 +35,8 @@
 ## INTRODUCTION TO SCRIPTING
 - a PowerShell script in its most basic form
 - execution policy
-- tools to make our lives easier
-  - PowerShell ISE
-  - VSCode
-  - version control
+
+## TOOLS FOR SCRIPTING
+- PowerShell ISE
+- VSCode
+- version control

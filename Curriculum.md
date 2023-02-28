@@ -5,6 +5,7 @@
   - .NET and C#
 - Windows PowerShell vs PowerShell (core)
 - Installing PowerShell
+- Installing Windows Terminal
 - What is PowerShell capable of doing for us and why do we care?
   - makes bulk administration and automation easy for operations engineers and systems administrators
   - built-in providers
@@ -16,10 +17,11 @@
   - we get to work with objects!
 - SysAdmins are NOT Developers
   - PowerShell acts as a programming language, but how we use it is not like a developer (normally)
-  - if this is the first language you're learning, do not be afraid!
+  - if this is the first computer language you're really learning, do not be afraid! (and you picked one of the best)
 
 ## DISCOVERABILITY
-- finding cmdlets
+- the cmdlet structure
+- finding cmdlets to use
 - finding help on specific cmdlets
 - finding help on larger concept topics
 - finding modules
@@ -31,4 +33,9 @@
 ## LOOPING AND LOGIC CONSTRUCTS
 
 ## INTRODUCTION TO SCRIPTING
-- tools we use for scripting
+- a PowerShell script in its most basic form
+- execution policy
+- tools to make our lives easier
+  - PowerShell ISE
+  - VSCode
+  - version control

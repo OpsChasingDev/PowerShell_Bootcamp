@@ -26,7 +26,18 @@
 - finding help on larger concept topics
 - finding modules
 
+## VARIABLES
+- setting and calling variables
+- seeing what variables can hold
+- environment variables
+- working with objects in variables
+
 ## OBJECTS AS THE FOUNDATION OF POWERSHELL'S POWER
+- what makes objects special
+- identifying what kinds of objects you're working with
+- seeing object members
+- properties vs methods
+- the pipeline
 
 ## WORKING WITH OPERATORS
 

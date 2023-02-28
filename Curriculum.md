@@ -19,5 +19,16 @@
   - if this is the first language you're learning, do not be afraid!
 
 ## DISCOVERABILITY
+- finding cmdlets
+- finding help on specific cmdlets
+- finding help on larger concept topics
+- finding modules
 
 ## OBJECTS AS THE FOUNDATION OF POWERSHELL'S POWER
+
+## WORKING WITH OPERATORS
+
+## LOOPING AND LOGIC CONSTRUCTS
+
+## INTRODUCTION TO SCRIPTING
+- tools we use for scripting

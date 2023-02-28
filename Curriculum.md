@@ -3,6 +3,7 @@
   - Jeffrey Snover stressed the importance of a shell-based management tool
   - .NET and C#
 - Windows PowerShell vs PowerShell (core)
+- Installing PowerShell
 - What is PowerShell capable of doing for us?
 
 ## DISCOVERABILITY

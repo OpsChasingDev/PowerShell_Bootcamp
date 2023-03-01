@@ -32,14 +32,33 @@
 - environment variables
 - working with objects in variables
 
+## WORKING WITH OPERATORS
+- arithmetic
+- logical
+- comparison
+
+## WORKING WITH COLLECTIONS
+- what is a collection?
+- arrays (lists)
+- using index to access members of a list
+- hash tables (dictionaries)
+- using key to access members of a hash table
+
 ## OBJECTS AS THE FOUNDATION OF POWERSHELL'S POWER
 - what makes objects special
 - identifying what kinds of objects you're working with
 - seeing object members
 - properties vs methods
 - the pipeline
+- how objects link through the pipeline
+- sorting and filtering output
 
-## WORKING WITH OPERATORS
+## DATA STREAMS
+- standard output
+- error output
+- warning output
+- debug output
+- host output
 
 ## LOOPING AND LOGIC CONSTRUCTS
 

@@ -75,6 +75,7 @@
 - warning output
 - host output
 - verbose output
+- suppressing output using $null
 
 ## REMOTING
 - enabling PowerShell remoting
@@ -82,8 +83,17 @@
 - interactive remoting
 - session remoting
 - retrieving information from remote sources
+- a note on scoping
 - passing variables to remote sessions
 - running scripts on remote computers
+
+## WORKING WITH PERSISTENT DATA
+- thus far, we have only dealt with volatile memory
+- generic export/import cmdlets
+  - Out-File
+  - Get-Content
+- common data structures (csv, xml, json)
+- cmdlets used for importing and exporting data structures
 
 ## INTRODUCTION TO SCRIPTING
 - a PowerShell script in its most basic form
@@ -104,6 +114,7 @@
 - while
 - do-while
 - switch
+- (more on the try/catch/finally loop later on)
 
 ## FUNCTIONS
 - why make functions?
@@ -123,4 +134,19 @@
 - enabling pipeline input
 - parameter sets
 
+## ADDING HELP
+- in-line comments (ILC)
+- comment-based help (CBH)
+- parameter descriptions
+
 ## ERROR HANDLING
+- global variable $Error
+- digging into what the error data stream holds (guess what, it's objects!)
+- terminating vs non-terminating errors
+- controlling errors with try/catch/finally
+- controlling actions upon encountering errors
+
+## MODULES
+- creating our own modules
+- a note on scoping
+- using script-level variables in modules

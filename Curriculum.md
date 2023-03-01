@@ -1,11 +1,17 @@
-## WHAT IS POWERSHELL
+# INTRODUCTION
+Welcome!  The Lesson Plan below contains a curriculum of what content will be covered during the course of this multi-session class on PowerShell.  Hands-on demonstrations throughout will help build a true sense of competance and comfort level with leveraging PowerShell in any situation.  No prior experience is required, and by the end of it, you will have deep and practical knowledge of one of the most powerful system administration tools known to the technical community.
+
+
+# LESSON PLAN
+
+### WHAT IS POWERSHELL
 - Brief history on where PowerShell comes from, what it's used for, and where it is now
   - PowerShell is NOT cmd (ping vs Test-NetConnection)
   - Jeffrey Snover stressed the importance of a shell-based management tool
   - .NET and C#
 - Windows PowerShell vs PowerShell (core)
 
-## GETTING STARTED WITH USING POWERSHELL
+### GETTING STARTED WITH USING POWERSHELL
 - Installing PowerShell
 - Installing Windows Terminal
 - Setting up the aesthetics of your shell (this is actually important)
@@ -22,20 +28,20 @@
   - PowerShell acts as a programming language, but how we use it is not like a developer (normally)
   - if this is the first computer language you're really learning, do not be afraid! (and you picked one of the best)
 
-## DISCOVERABILITY
+### DISCOVERABILITY
 - the cmdlet structure
 - finding cmdlets to use
 - finding help on specific cmdlets
 - finding help on larger concept topics
 - finding modules
 
-## VARIABLES
+### VARIABLES
 - setting and calling variables
 - seeing what variables can hold
 - environment variables
 - working with objects in variables
 
-## DATA TYPES
+### DATA TYPES
 - string
 - int
 - float
@@ -44,19 +50,19 @@
 - bool
 - .NET data types
 
-## WORKING WITH OPERATORS
+### WORKING WITH OPERATORS
 - arithmetic
 - logical
 - comparison
 
-## WORKING WITH COLLECTIONS
+### WORKING WITH COLLECTIONS
 - what is a collection?
 - arrays (lists)
 - using index to access members of a list
 - hash tables (dictionaries)
 - using key to access members of a hash table
 
-## OBJECTS AS THE FOUNDATION OF POWERSHELL'S POWER
+### OBJECTS AS THE FOUNDATION OF POWERSHELL'S POWER
 - what makes objects special (revisit ping vs Test-Netconnection)
 - ipconfig vs Get-NetIPAddress
 - identifying what kinds of objects you're working with
@@ -69,7 +75,7 @@
 - sorting and filtering output
 - significance of '$_'
 
-## DATA STREAMS
+### DATA STREAMS
 - standard output
 - error output
 - warning output
@@ -77,7 +83,7 @@
 - verbose output
 - suppressing output using $null
 
-## REMOTING
+### REMOTING
 - enabling PowerShell remoting
 - implicit remoting using cmdlet parameters
 - interactive remoting
@@ -87,7 +93,7 @@
 - passing variables to remote sessions
 - running scripts on remote computers
 
-## WORKING WITH PERSISTENT DATA
+### WORKING WITH PERSISTENT DATA
 - thus far, we have only dealt with volatile memory
 - generic export/import cmdlets
   - Out-File
@@ -95,19 +101,19 @@
 - common data structures (csv, xml, json)
 - cmdlets used for importing and exporting data structures
 
-## INTRODUCTION TO SCRIPTING
+### INTRODUCTION TO SCRIPTING
 - a PowerShell script in its most basic form
 - execution policy
 - no more shortcuts or aliases
 - a note on tidiness, indentation, and overall readability
 
-## TOOLS FOR SCRIPTING
+### TOOLS FOR SCRIPTING
 - PowerShell ISE
 - VSCode
 - version control with git
 - Github
 
-## LOOPING AND LOGIC CONSTRUCTS
+### LOOPING AND LOGIC CONSTRUCTS
 - if-then
 - foreach
 - for
@@ -116,7 +122,7 @@
 - switch
 - (more on the try/catch/finally loop later on)
 
-## FUNCTIONS
+### FUNCTIONS
 - why make functions?
   - eliminate copy/paste coding
   - formalize scripts for portability and reusability
@@ -126,7 +132,7 @@
 - adding common PowerShell engine support to functions
 - begin/process/end
 
-## MORE ON PARAMS
+### MORE ON PARAMS
 - parameter attributes
   - mandatory
   - specifying data types
@@ -134,19 +140,19 @@
 - enabling pipeline input
 - parameter sets
 
-## ADDING HELP
+### ADDING HELP
 - in-line comments (ILC)
 - comment-based help (CBH)
 - parameter descriptions
 
-## ERROR HANDLING
+### ERROR HANDLING
 - global variable $Error
 - digging into what the error data stream holds (guess what, it's objects!)
 - terminating vs non-terminating errors
 - controlling errors with try/catch/finally
 - controlling actions upon encountering errors
 
-## MODULES
+### MODULES
 - creating our own modules
 - a note on scoping
 - using script-level variables in modules

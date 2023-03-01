@@ -1,5 +1,5 @@
 # INTRODUCTION
-Welcome!  The Lesson Plan below contains a curriculum of what content will be covered during the course of this multi-session class on PowerShell.  Hands-on demonstrations throughout will help build a true sense of competance and comfort level with leveraging PowerShell in any situation.  No prior experience is required, and by the end of it, you will have deep and practical knowledge of one of the most powerful system administration tools known to the technical community.
+Welcome!  The Lesson Plan below contains a curriculum of what content will be covered during the course of this multi-session class on PowerShell.  Hands-on demonstrations throughout will help build a true sense of competance and comfort level with leveraging PowerShell in any situation.  You will also learn how to use the modern, popular script editor known as VSCode in conjunction with git version control and Github so you will be able to look back on your previous work and have practical experience using these tools for future projects.  No prior experience is required, and by the end of it, you will have deep and practical knowledge of one of the most powerful system administration tools known to the technical community.
 
 
 # LESSON PLAN

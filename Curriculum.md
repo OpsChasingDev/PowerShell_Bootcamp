@@ -1,11 +1,14 @@
 ## WHAT IS POWERSHELL
 - Brief history on where PowerShell comes from, what it's used for, and where it is now
-  - PowerShell is NOT cmd
+  - PowerShell is NOT cmd (ping vs Test-NetConnection)
   - Jeffrey Snover stressed the importance of a shell-based management tool
   - .NET and C#
 - Windows PowerShell vs PowerShell (core)
+
+## GETTING STARTED WITH USING POWERSHELL
 - Installing PowerShell
 - Installing Windows Terminal
+- Setting up the aesthetics of your shell (this is actually important)
 - What is PowerShell capable of doing for us and why do we care?
   - makes bulk administration and automation easy for operations engineers and systems administrators
   - built-in providers
@@ -32,6 +35,15 @@
 - environment variables
 - working with objects in variables
 
+## DATA TYPES
+- string
+- int
+- float
+- double
+- bigint
+- bool
+- .NET data types
+
 ## WORKING WITH OPERATORS
 - arithmetic
 - logical
@@ -45,28 +57,70 @@
 - using key to access members of a hash table
 
 ## OBJECTS AS THE FOUNDATION OF POWERSHELL'S POWER
-- what makes objects special
+- what makes objects special (revisit ping vs Test-Netconnection)
+- ipconfig vs Get-NetIPAddress
 - identifying what kinds of objects you're working with
 - seeing object members
+  - Get-Member
+  - dot-sourcing technique
 - properties vs methods
 - the pipeline
 - how objects link through the pipeline
 - sorting and filtering output
+- significance of '$_'
 
 ## DATA STREAMS
 - standard output
 - error output
 - warning output
-- debug output
 - host output
+- verbose output
 
-## LOOPING AND LOGIC CONSTRUCTS
+## REMOTING
+- enabling PowerShell remoting
+- implicit remoting using cmdlet parameters
+- interactive remoting
+- session remoting
+- retrieving information from remote sources
+- passing variables to remote sessions
+- running scripts on remote computers
 
 ## INTRODUCTION TO SCRIPTING
 - a PowerShell script in its most basic form
 - execution policy
+- no more shortcuts or aliases
+- a note on tidiness, indentation, and overall readability
 
 ## TOOLS FOR SCRIPTING
 - PowerShell ISE
 - VSCode
-- version control
+- version control with git
+- Github
+
+## LOOPING AND LOGIC CONSTRUCTS
+- if-then
+- foreach
+- for
+- while
+- do-while
+- switch
+
+## FUNCTIONS
+- why make functions?
+  - eliminate copy/paste coding
+  - formalize scripts for portability and reusability
+- creating functions
+- calling functions
+- allowing user input with parameters
+- adding common PowerShell engine support to functions
+- begin/process/end
+
+## MORE ON PARAMS
+- parameter attributes
+  - mandatory
+  - specifying data types
+  - validateset/validatepattern
+- enabling pipeline input
+- parameter sets
+
+## ERROR HANDLING
